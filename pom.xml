@@ -67,7 +67,7 @@
     <obrDeploy>local-file::default::file:///${workspace}/bin/obr/repository</obrDeploy>
     <!-- obrDeploy>sonatype-nexus-staging::obr::http://repository.jbundle.org:8081/nexus/content/repositories/repository</obrDeploy --> <!-- Remote -->
 
-    <jibx-root>${user.home}/workspace-jibx/jibx</jibx-root> <!-- Override this value (The location of the root jibx directory) in settings.xml -->
+    <jibx-root>${user.home}/projects/jibx</jibx-root> <!-- Override this value (The location of the root jibx directory) in settings.xml -->
     <workspace>${jibx-root}</workspace>
     <jibx-version>1.3.0</jibx-version>
     <jibx-schema-version>1.2.0</jibx-schema-version>
